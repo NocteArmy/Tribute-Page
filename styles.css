@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
+
+.jumbotron-fluid {
+  background: #EDF2F4;
+  padding: 20px 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+p {
+  font-family: inherit;
+  font-weight: 100;
+}
+h1 ~ p {
+  margin-bottom: 0;
+}
+li {
+  font-family: inherit;
+  font-weight: 100;
+}
+a {
+  color: #c18934;
+}
+a:hover {
+  text-decoration: none;
+}
+.title {
+  font-weight: 700;
+}
+.profile-img {
+  width: 250px;
+  border-radius: 10%;
+}
+.tribute-summary {
+  border-bottom: 4px solid #90aab6;
+  padding-bottom: 20px;
+}
+.timeline {
+  padding-top: 20px;
+}
+.achievements {
+  padding-top: 20px;
+}
+
+@media (max-width: 767px) {
+  .summary h1, .summary h2, .summary p {
+    text-align: center;
+  }
+  .timeline {
+    border-bottom: 4px solid #90aab6;
+  }
+}
