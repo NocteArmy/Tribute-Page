@@ -25,11 +25,15 @@ a {
 a:hover {
   text-decoration: none;
 }
+table, th, td {
+  border: 1px solid black;
+}
 .title {
   font-weight: 700;
 }
 .profile-img {
-  width: 250px;
+  display: block;
+  max-width: 100%;
   border-radius: 10%;
 }
 .tribute-summary {
