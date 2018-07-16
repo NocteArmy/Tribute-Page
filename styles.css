@@ -1,8 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:100);
 
 .jumbotron-fluid {
-  background: #EDF2F4;
-  padding: 20px 0;
+  background-color: rgb(63, 47, 87);
+  color: rgb(242, 230, 230);
+  padding: 50px 0;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif;
@@ -10,6 +11,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 p {
   font-family: inherit;
+  font-size: 16px;
   font-weight: 100;
 }
 h1 ~ p {
@@ -20,13 +22,13 @@ li {
   font-weight: 100;
 }
 a {
-  color: #c18934;
+  color: rgb(192, 202, 238);
 }
 a:hover {
   text-decoration: none;
 }
 table, th, td {
-  border: 1px solid black;
+  border: 1px solid hsl(264, 30%, 35%);
 }
 .title {
   font-weight: 700;
@@ -37,14 +39,17 @@ table, th, td {
   border-radius: 10%;
 }
 .tribute-summary {
-  border-bottom: 4px solid #90aab6;
-  padding-bottom: 20px;
+  border-bottom: 2px solid hsl(264, 30%, 35%);
+  padding-bottom: 50px;
 }
 .timeline {
-  padding-top: 20px;
+  padding-top: 50px;
 }
 .achievements {
-  padding-top: 20px;
+  padding-top: 50px;
+}
+.link {
+  margin-top: 50px;  
 }
 
 @media (max-width: 767px) {
@@ -52,6 +57,6 @@ table, th, td {
     text-align: center;
   }
   .timeline {
-    border-bottom: 4px solid #90aab6;
+    border-bottom: 2px solid hsl(264, 30%, 35%);
   }
 }
